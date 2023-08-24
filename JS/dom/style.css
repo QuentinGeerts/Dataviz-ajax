@@ -1,0 +1,24 @@
+.divInfo {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.title {
+  color: #123456;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.article {
+  font-size: small;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+div {
+  margin: 20px 0; /* vertical horizontal */
+}

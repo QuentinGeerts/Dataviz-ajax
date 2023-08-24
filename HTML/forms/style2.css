@@ -1,0 +1,44 @@
+*:required {
+  border: 1px solid rgb(50, 205, 226);
+}
+
+*:optional {
+  border: 1px solid rgb(238, 144, 144);
+}
+
+*:valid {
+  text-decoration: underline;
+}
+
+/* *:invalid {
+  font-weight: bolder;
+} */
+
+input[type="checkbox"]:checked {
+  color: chartreuse;
+}
+
+*:disabled {
+  background: rgb(229, 253, 161);
+}
+
+*:enabled {
+  background: rgb(253, 205, 161);
+}
+
+input {
+  text-indent: 20px;
+}
+
+.input {
+  padding: 10px 0;
+}
+
+#input {
+  text-decoration: underline wavy;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Produits</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Label</th>
+        <th>Prix</th>
+        <th>Opération</th>
+      </tr>
+    </thead>
+    <tbody id="products">
+      <tr>
+        <td>Chaise</td>
+        <td>25</td>
+        <td>
+          <button onclick="addToCart(event)">Ajouter</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Table</td>
+        <td>140</td>
+        <td>
+          <button onclick="addToCart(event)">Ajouter</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Lampe</td>
+        <td>40</td>
+        <td>
+          <button onclick="addToCart(event)">Ajouter</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Plante</td>
+        <td>12</td>
+        <td>
+          <button onclick="addToCart(event)">Ajouter</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Clavier</td>
+        <td>75</td>
+        <td>
+          <button onclick="addToCart(event)">Ajouter</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Panier</h1>
+
+  <h3>
+    Total :
+    <input type="text" id="price" readonly>
+  </h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Label</th>
+        <th>Prix</th>
+        <th>Quantité</th>
+        <th>Opération</th>
+      </tr>
+    </thead>
+
+    <tbody id="cart">
+      <!-- Généré par l'ajout du bouton "Ajouter" -->
+    </tbody>
+  </table>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

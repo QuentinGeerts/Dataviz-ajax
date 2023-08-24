@@ -1,0 +1,228 @@
+/* Externe */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap'); */
+
+/* Local */
+@font-face {
+  font-family: 'IBM';
+  src: url('/assets/fonts/IBMPlexSansThaiLooped-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: "IBM";
+  width: 70%;
+  margin: 0 auto;
+  /* background-image: url("/assets/img/cat.jpg"); */
+  background-size: 100% cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center center;
+}
+
+.text-blue {
+  color: blue
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: rgba(34, 34, 34, 0.856);
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.container {
+  background: yellow;
+}
+
+
+.bolder {
+  font-weight: bold;
+}
+
+.header {
+
+}
+
+#patates {
+  height: 50px;
+  color: #c0c0c0;
+  background-image: url('/assets/img/cat.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  text-shadow: 3px 3px 3px black;
+  text-indent: 10px;
+}
+
+header {
+
+}
+
+dt {
+  font-weight: bold;
+  text-decoration: underline dashed;
+}
+
+div > * {
+  font-size: 1rem;
+}
+
+/* tous les h2 dans les div */
+#text h2 {
+  background: rgb(231, 231, 231);
+}
+
+#text > h2 {
+  color: magenta;
+  text-align: center;
+}
+
+h2 + * {
+  border: 1px solid black;
+  height: 200px;
+  /* x - y */
+  overflow: hidden scroll;
+}
+
+h2 ~ p {
+  text-align: justify;
+}
+
+*[class] {
+  font-style: italic;
+}
+
+#align {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+  border-radius: 50%
+}
+
+#align > * {
+  border: 1px solid black;
+  /*  */
+  width: auto;
+  margin: 0 auto;
+}
+
+#transform {
+  text-transform: uppercase;
+}
+
+#nav a:visited {
+  text-decoration: none;
+  color: red
+}
+
+#nav a {
+  text-decoration: none;
+  color: black
+}
+
+#display {
+  background: yellow;
+  display: flex;
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#marge {
+  height: 200px;
+  border: 10px inset rgb(136, 136, 136);
+  /*margin: 10px;*/ /* Appliqué sur tous les côtés */
+  /* margin: 10px 0 55px 15px;*/ /* haut - droite - bas - gauche */
+
+  margin: 10px 20px; /* vertical - horizontal */
+
+  padding : 40px;
+  background: rgb(185, 185, 185);
+
+  resize: both;
+  
+}
+
+div {
+  border-radius: 5px;
+}
+
+#shadow {
+  
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.356);
+}
+
+
+#pseudoclass p:first-child {
+  color: rgb(39, 83, 139)
+}
+
+#pseudoclass p:last-child {
+  color: green
+}
+
+h3:only-child {
+  color: red
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+}
+
+td {
+  width: 300px;
+  height: 20px;
+  border: 1px solid red;
+}
+
+tr:nth-child(even) {
+  /* background: red; */
+}
+
+tr:nth-child(odd) {
+  /* background: blue; */
+}
+
+tr:nth-child(2n+2) {
+  background: blue;
+}

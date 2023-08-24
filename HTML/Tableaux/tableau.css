@@ -1,0 +1,45 @@
+table {
+  border: 1px solid black;
+  caption-side: bottom;
+
+  text-align: center;
+
+
+  /* collapse */
+  border-collapse: collapse;
+
+  /* separate */
+  /* border-collapse: separate; */
+  /* border-spacing: 10px; */
+  /* border-spacing: 10px 20px; */
+}
+
+/* tr {
+  border: 1px solid black;
+} */
+
+
+th, td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  /* width: 100px; */
+
+  /* éléments inlines */
+  vertical-align: center;
+
+  /* Impossible */
+  /* margin: 10px; */
+}
+
+th:hover, td:hover {
+  background: lightgrey;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-blue {
+  background: blue;
+}

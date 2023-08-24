@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: grey;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  font-size: 40px;
+  box-sizing: border-box;
+
+  /* Position */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.selected-card {
+  background: rgb(43, 136, 79);
+}
+
+.selected-card-valid {
+  border: 1px solid rgb(43, 136, 79);
+}
+
+.selected-card-invalid {
+  background: rgb(175, 55, 55);
+}
